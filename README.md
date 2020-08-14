@@ -25,4 +25,4 @@ We carried out custom training using Matterports Custom Mask RCNN Skeleton. (You
   2. Carry out your custom training on your own images by following the steps provided in the above link.
   3. After completing the training you'll have the weights files. Create a folder named "weights" in the clonned folder of this repository. Place all the weights file in this newly created folder.
   4. Place the image you want to caryy out your prediction on, in the images folder.
-  4. In your terminal navigate to this folder, and run the command: ```console python maskrcnn_predict.py --image images/image name of your desired image ```.
+  4. In your terminal navigate to this folder, and run the command: ```python maskrcnn_predict.py --image images/image name of your desired image```.
